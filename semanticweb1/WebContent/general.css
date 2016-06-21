@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+form {
+	display:block;
+	border-width:1px;
+	width:500px;
+	height:220px;
+	margin:auto;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:40px;
+	
+	
+}
+
+.emoji-picker-icon {
+		
+		
+		width:25px;
+		height:25px;
+		background:url("emoji_spritesheet_0.png") 0px 0px no-repeat;
+		background-size: 675px 175px;
+	}
+	
+h1 {
+	color:blue;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+body {
+	background:url("page-background.jpg") 0px 0px no-repeat;
+}
+
+#descrip {
+	display:block;
+	margin-left:150px;
+	margin-right:150px;
+	
+	background-color:red;
+	color:white;
+	height:60px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+}
+
+#main-container {
+	background-color:cyan;
+	display:block;
+	position:fixed;
+	opacity:0.5;
+	left:20px;
+	top:200px;
+	width:600px;
+	height:300px;
+	
+	
+}
+
+#send {
+	float:right;
+	background-color:orange;
+	color:white;
+	font-weight:bold;
+	position:relative;
+	top:120px;
+}
+
+#tags {
+	display:block;
+	padding-left:10px;
+	padding-right:10px;
+	border-style:solid;
+	border-width:1px;
+	height:80px;
+	
+	
+}
